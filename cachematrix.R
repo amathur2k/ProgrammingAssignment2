@@ -8,7 +8,6 @@
 makeCacheMatrix <- function(x = matrix()) {
  	  inv <- NULL
         set <- function(y) {
-                ## Didnt get the point of this <<- here, lexical Scoping sucks
 		    x <<- y
                 inv <<- NULL
         }
